@@ -1,0 +1,88 @@
+
+img.logo {
+    width: 230px;
+    object-fit: fill;
+}
+
+.creat-box{
+    margin: 2em auto;
+    margin-top: 0px;
+    padding: 1em;
+    width: 32%;
+    background-color:#fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.newacount{
+    margin-top: 0px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+label[for="name1"] {
+    display: inline;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: 600;
+    bottom: 0px;
+}
+
+.txtbox{
+    width: 440px;
+    height: 32px;
+    font-size: 16px;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 3px;
+}
+
+img.i {
+    width: 15px;
+}
+
+.pass-nagasa{
+    padding-top: 0px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.push{
+    background-color: #f1c75f;
+    font-weight: 300;
+    width: 440px;
+    height: 37px;
+    font-size: 16px;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 3px;
+
+}
+
+.tyuui{
+    font-family: arial;
+    font-weight: 100;
+    
+}
+
+.tyuui a{
+    text-decoration: none;
+}
+
+.a-row{
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.a-row a{
+    text-decoration: none;
+}
+
+footer {
+    clear:both;
+    height:80px;
+    text-align:center;
+    }
+
+.end a{
+    text-decoration: none;
+    width: 100；
+}
