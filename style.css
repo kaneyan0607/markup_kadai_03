@@ -1,3 +1,9 @@
+body{
+    width: 1390px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 img.logo {
     width: 230px;
@@ -57,13 +63,17 @@ img.i {
 
 }
 
-.tyuui{
+.terms{
     font-family: arial;
     font-weight: 100;
     
 }
 
-.tyuui a{
+.space{
+    margin-bottom:80px;
+}
+
+.terms a{
     text-decoration: none;
 }
 
@@ -84,5 +94,6 @@ footer {
 
 .end a{
     text-decoration: none;
+    padding-right: 20px;
     width: 100；
 }
