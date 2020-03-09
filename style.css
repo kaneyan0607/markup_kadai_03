@@ -4,13 +4,16 @@ body{
     margin-left: auto;
 }
 
+.logostyle{
+    text-align: center;
+}
 
 img.logo {
     width: 230px;
     object-fit: fill;
 }
 
-.creat-box{
+.create-box{
     margin: 2em auto;
     margin-top: 0px;
     padding: 1em;
@@ -20,13 +23,29 @@ img.logo {
     border-radius: 10px;
 }
 
-.newacount{
+.new-account{
     margin-top: 0px;
     font-size: 40px;
     font-weight: normal;
 }
 
 label[for="name1"] {
+    display: inline;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: 600;
+    bottom: 0px;
+}
+
+label[for="name2"] {
+    display: inline;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: 600;
+    bottom: px;
+}
+
+label[for="name3"] {
     display: inline;
     font-family: arial;
     font-size: 17px;
@@ -66,10 +85,6 @@ img.i {
 .terms{
     font-family: arial;
     font-weight: 100;
-    
-}
-
-.space{
     margin-bottom:80px;
 }
 
