@@ -9,46 +9,39 @@
 
 <body>
     <header>
-        <div class="conteiner">
-            <a href="#"><img src="logo/amazon_logo.png"></a>
-        </div>
+        <a href="#"><img src="logo/amazon_logo.png"></a>
     </header>
     <main>
-        <div class="contact conteiner">
-            <div class="heading">
-                <h1>アカウントを作成</h1>
-            </div>
-            <p class="top">名前</p>
-            <input type="text" class="box">
-            <p class="top">フリガナ</p>
-            <input type="text" class="box">
-            <p class="top">Eメールアドレス</p>
-            <input type="email" class="box">
-            <p class="top">パスワード</p>
-            <input type="password" class="box" placeholder="最低6文字必要です">
-            <img src="logo/info.png">
-            <p class="btn wordcount">パスワードの長さは最低六文字です。</p>
-            <p class="top">もう一度パスワードを入力してください</p>
-            <input type="password" class="box">
-            <input type="submit" class="push box" value="Amazonアカウントを作成">
+        <div class="container">
+            <h1>アカウントを作成</h1>
+            <form action="#">
+                <p><label for="name-field">名前</label></p>
+                <input type="text" class="box" id="name-field" name="name">
+                <p><label for="read-field">フリガナ</label></p>
+                <input type="text" class="box" id="read-field" name="read">
+                <p><label for="email-field">Eメールアドレス</label></p>
+                <input type="email" class="box" id="email-field" name="email">
+                <p><label for="password-field">パスワード</label></p>
+                <input type="password" class="box" id="password-field" name="password" placeholder="最低6文字必要です">
+                <p class="btn wordcount">パスワードの長さは最低6文字です。</p>　 <!-- CSSでinfo画像挿入 -->
+                <p><label for="passwordcheck-field">もう一度パスワードを入力してください</label></p>
+                <input type="password" class="box" id="passwordcheck-field" name="passwordcheck">
+                <input type="submit" class="push box" name="account" value="Amazonアカウントを作成">
+            </form>
             <p class="btn terms">
                 ログインすることにより、当社の<a href="#">利用規約</a>および<a href="#">プライバシー規約</a>に同意したとみなされます。
             </p>
             <p class="btn">
-                すでにアカウントをお持ちですか？<a href="#">ログイン<span>▶︎</span></a>
+                すでにアカウントをお持ちですか？<a href="#">ログイン<span>▶︎</span></a>　<!-- spanタグをCSSでfont-size10pxにする-->
             </p>
         </div>
     </main>
     <footer>
-        <div class="conteiner">
-            <div class="footer-top">
-                <a href="#">利用規約</a>
-                <a href="#">プライバシー規約</a>
-                <a href="#">ヘルプ</a>
-            </div>
-            <div class="footer-low">
-                <p>© 1996-2020, Amazon.com, Inc. or its affiliates</p>
-            </div>
-        </div>
+        <ul class="footer-nav">
+            <li><a href="#">利用規約</a></li>
+            <li><a href="#">プライバシー規約</a></li>
+            <li><a href="#">ヘルプ</a></li>
+        </ul>
+        <address>© 1996-2020, Amazon.com, Inc. or its affiliates</address>
     </footer>
 </body>
